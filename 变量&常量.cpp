@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h>
-//±äÁ¿»ù´¡
+//å˜é‡åŸºç¡€
 
 //int a = 189;
 //int main()
@@ -11,7 +11,7 @@
 //}
 
 
-//¼ÆËãÊäÈëµÄaÓëbµÄºÍ
+//è®¡ç®—è¾“å…¥çš„aä¸bçš„å’Œ
 //int main()
 //{
 //	int a = 0;
@@ -23,12 +23,12 @@
 //	return 0;
 //}
 
-//Ã¶¾Ù³£Á¿
+//æšä¸¾å¸¸é‡
 int main()
 {
 	enum sex
 	{
-		male=3, //¸³³õÖµ
+		male=3, //èµ‹åˆå€¼
 		female=7,
 		secret,
 	};
