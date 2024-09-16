@@ -1,7 +1,9 @@
-¼ÆËãnµÄ½×³Ë
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+//è®¡ç®—nçš„é˜¶ä¹˜
 int main()
 {
-	printf("ÇëÊäÈëÒ»¸öÕıÕûÊı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°ï¼š");
 	int a = 0;
 	scanf("%d", &a);
 	int t = 0;
