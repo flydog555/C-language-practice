@@ -1,7 +1,9 @@
-//¼ÆËã1!+2!+...+n!
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+//è®¡ç®—1!+2!+...+n!
 //int main()
 //{
-//	printf("ÇëÊäÈëÒ»¸öÕıÕûÊı£º");
+//	printf("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°ï¼š");
 //	int n = 0;//
 //	scanf("%d", &n);
 //	int b = 0;
@@ -30,10 +32,10 @@
 //	printf("%d\n", result);
 //	return 0;
 //}
-//¸ü¼ò½àµÄ·½Ê½
+//æ›´ç®€æ´çš„æ–¹å¼
 int main()
 {
-	printf("ÇëÊäÈëÒ»¸öÕıÕûÊı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°ï¼š");
 	int n = 0;//
 	scanf("%d", &n);
 	int b = 0;
