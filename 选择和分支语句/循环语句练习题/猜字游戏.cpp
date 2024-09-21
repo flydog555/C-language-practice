@@ -21,11 +21,11 @@ int main()
 	do
 	{
 		menu();
-		printf("ÇëÑ¡Ôñ£º");
+		printf("è¯·é€‰æ‹©ï¼š");
 		scanf("%d", &input);
 		if (input == 0)
 		{
-			printf("ÍË³öÓÎÏ·");
+			printf("é€€å‡ºæ¸¸æˆ");
 		}
 		else if (input == 1)
 		{
@@ -34,25 +34,27 @@ int main()
 			int a = 0;
 			char choose = 'a';
 			int b = 0;
-			printf("Çë²ÂÒ»¸öÊı£º");
+			printf("è¯·çŒœä¸€ä¸ªæ•°ï¼š");
 			while (1)
 			{
 				scanf("%d", &a);
 				getchar();
 				if (a == result)
 				{
-					printf("»Ø´ğÕıÈ·");
-					printf("ÊÇ·ñ¼ÌĞø£¿Y/N:");
+					printf("å›ç­”æ­£ç¡®");
+					printf("æ˜¯å¦ç»§ç»­ï¼ŸY/N:");
 					scanf("%c", &choose);
 					getchar();
 					if (choose == 'Y' || choose == 'y')
 					{
-						printf("Çë²ÂÒ»¸öÊı£º");
+						printf("è¯·çŒœä¸€ä¸ªæ•°ï¼š");
+						srand(time(NULL));
+						result = rand() % 101;
 						continue;
 					}
 					else
 					{
-						printf("ÍË³öÓÎÏ·");
+						printf("é€€å‡ºæ¸¸æˆ");
 						back = 1;
 						break;
 
@@ -61,18 +63,18 @@ int main()
 				}
 				else if (a > result && a <= 100 && a >= 0)
 				{
-					printf("²Â´óÁË£¬ÇëÖØĞÂ²Â\n");
-					printf("ÇëÊäÈë£º");
+					printf("çŒœå¤§äº†ï¼Œè¯·é‡æ–°çŒœ\n");
+					printf("è¯·è¾“å…¥ï¼š");
 				}
 				else if (a < result && a <= 100 && a >= 0)
 				{
-					printf("²ÂĞ¡ÁË£¬ÇëÖØĞÂ²Â\n");
-					printf("ÇëÊäÈë£º");
+					printf("çŒœå°äº†ï¼Œè¯·é‡æ–°çŒœ\n");
+					printf("è¯·è¾“å…¥ï¼š");
 				}
 				else
 				{
-					printf("ÊäÈë´íÎó£¬ÇëÊäÈëÒ»¸ö0-100µÄÕûÊı\n");
-					printf("ÇëÊäÈë£º");
+					printf("è¾“å…¥é”™è¯¯ï¼Œè¯·è¾“å…¥ä¸€ä¸ª0-100çš„æ•´æ•°\n");
+					printf("è¯·è¾“å…¥ï¼š");
 				}
 			}
 			if (back == 1)
@@ -82,7 +84,7 @@ int main()
 		}
 		else
 		{
-			printf("ÊäÈëÊı¾İ´íÎó£¬ÇëÊäÈë0»ò1\n");
+			printf("è¾“å…¥æ•°æ®é”™è¯¯ï¼Œè¯·è¾“å…¥0æˆ–1\n");
 		}
     } while (input);
 	return 0;
